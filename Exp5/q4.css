@@ -154,7 +154,7 @@ footer{
 
 /*------- Medium Devices Only -------*/
 
-@media ( min-width: 825px) and (max-width: 1223px) {
+@media ( min-width: 925px) and (max-width: 1223px) {
     .col-md-12, .col-md-6{
         float: left;
     }
@@ -168,7 +168,7 @@ footer{
 
 /*------- Small Devices Only -------*/
 
-@media (min-width: 424px) and (max-width: 824px) {
+@media (min-width: 424px) and (max-width: 924px) {
     .col-sm-12{
         float: left;
         width: 100%;
