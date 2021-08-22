@@ -12,6 +12,13 @@ body{
 }
 
 /******** ----LINK---- ********/
+header > a{
+    display: inline-block;
+    border: 1px solid #000;
+    background-color: aliceblue;
+    margin-bottom: 5px;
+}
+
 a{
     margin-left: 5px;
     text-decoration: none;
@@ -35,13 +42,17 @@ a:hover, a:active{
 
 .row{
     float: left;
-    width: 100%;
     background-color: #405179;
 }
 
 .box{
-    width: 98%;
+    width: 100%;
     margin-bottom: 5px;
+    overflow: none;
+}
+
+.box2{
+    margin: 0px 2px 0px 2px;
 }
 
 div.box > h2{
@@ -52,7 +63,6 @@ div.box > h2{
 }
 
 caption{
-
     width: 100%;
     color: #fff;
     background-color: #3a3a3a;
@@ -82,7 +92,7 @@ hr{
 
 footer{
     margin-top: 5px;
-    border: 2px ridge #000;
+    border: 2px solid #000;
     width: 100%;
     background-color: #405179;
     color: #ffffff;
@@ -102,7 +112,7 @@ footer{
 
 /*------- Medium Devices Only -------*/
 
-@media ( min-width: 768px) and (max-width: 1223px) {
+@media ( min-width: 825px) and (max-width: 1223px) {
     .col-md-12, .col-md-6{
         float: left;
     }
@@ -119,9 +129,21 @@ footer{
 
 /*------- Small Devices Only -------*/
 
-@media (max-width: 767px) {
+@media (min-width: 424px) and (max-width: 824px) {
     .col-sm-12{
         float: left;
         width: 100%;
     }
+}
+
+@media (max-width: 423px){
+    .col-xs-12{
+        float: left;
+        width: 100;
+    }
+
+    body{
+        font-size: .7em;
+    }
+
 }
