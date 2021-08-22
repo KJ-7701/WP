@@ -122,9 +122,6 @@ footer{
     .col-md-12{
         width: 100%;
     }
-    .box3{
-        width: 100%;
-    }
 }
 
 /*------- Small Devices Only -------*/
@@ -148,7 +145,7 @@ footer{
         height: 175px;
     }
     body{
-        font-size: .6em;
+        font-size: .5em;
     }
 
 }
