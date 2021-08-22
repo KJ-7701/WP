@@ -1,0 +1,122 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #bfcef0;
+    color: #333333;
+
+}
+figure, div{
+    text-align: center;
+}
+
+div > h1{
+    font-size: 2.5em;
+}
+
+h2, h1, p{
+    margin-left: 20px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+caption {
+    text-align: left;
+}
+
+
+
+              /* ----HEADER---- */
+header a{  
+    margin-left: 10px;
+    display:inline-block;
+    text-decoration: none;
+    padding: 5px;
+}
+
+header {
+    text-align: center;
+    border: 2px ridge #010101;
+}
+              /* ----/HEADER---- */
+
+
+
+
+              /* -----TABLES----- */
+
+th, td{
+    border: 1px groove #3a3a3a;
+    background-color: rgb(173, 222, 236); 
+    padding: 5px;
+}
+
+table{
+    border: 1px groove #3a3a3a;
+    border-collapse: collapse;
+    width: 60%;
+    overflow: auto;
+}
+
+td{
+    text-align: left;
+    text-transform: uppercase;
+    text-shadow: 0.5px 0 #ff7676;
+    
+    
+}
+
+.center{         /* class for td elements to be centered */
+    text-align: center;
+    color: rgb(224, 11, 11);
+}
+
+                 /* -----/TABLES----- */
+
+
+              /* -----LISTS---- */
+
+ol{
+    list-style-position: inside;
+}
+
+ul{
+    list-style-position: inside;
+    list-style: none;
+}
+
+ul > li::before{
+    content: "\2022";
+    color: #790179;
+    font-size: 1.2em;
+    font-weight: bolder;
+    display: inline-block;
+    margin: 0px 5px;
+}
+              /* -----/LISTS---- */
+
+
+
+              /* ----LINKS---- */
+
+nav > a{
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+a:hover, a:active{
+    color: #161616;
+}
+
+a:visited {
+    color: #ff1010;
+}
+              /* ----/LINKS---- */
+
+
+               /* ----FOOTER---- */
+footer{
+    background-color: #405179;
+    text-align: right;
+    color: #ffffff;
+}
+
+               /* ----/FOOTER---- */

@@ -1,0 +1,13 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: #cdcdcd;
+    font-size: 1.3em;
+}
+
+.odd{
+    background-color: #b0aeb1;
+}
+
+.even{
+    background-color: #33cdcd;
+}
