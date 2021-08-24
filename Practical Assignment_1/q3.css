@@ -19,8 +19,8 @@ header, footer{
 }
 /******** /HEADER & FOOTER ********/
 
-h2{
-    
+div > h2{
+    margin: 0px auto;
    
 }
 
@@ -30,10 +30,7 @@ h2{
 
 .box{
     border: 1px solid #fff;
-    width: 400px;
     height: 40vh;
-    float: left;
-    width: 33.3%;
 }
 
 .left{
@@ -58,6 +55,11 @@ h2{
         float: left;
         width: 33.3%;
     }
+    
+    body{
+        font-size: 1em;
+    }
+   
 }
 /*-------- /Large Devices Only -------*/
 
@@ -90,7 +92,7 @@ h2{
     }
 
     body{
-        font-size: .25em;
+        font-size: 1em;
     }
 }
 
@@ -110,7 +112,7 @@ h2{
     }
     
     body{
-        font-size: .25em;
+        font-size: 1em;
     }
 
 }
