@@ -19,11 +19,6 @@ header, footer{
 }
 /******** /HEADER & FOOTER ********/
 
-div > h2{
-    margin: 0px auto;
-   
-}
-
 .container{
     clear: both;
 }
@@ -31,6 +26,8 @@ div > h2{
 .box{
     border: 1px solid #fff;
     height: 40vh;
+    float: left;
+    width: 33.3%;
 }
 
 .left{
@@ -55,11 +52,7 @@ div > h2{
         float: left;
         width: 33.3%;
     }
-    
-    body{
-        font-size: 1em;
-    }
-   
+
 }
 /*-------- /Large Devices Only -------*/
 
@@ -92,7 +85,7 @@ div > h2{
     }
 
     body{
-        font-size: 1em;
+        font-size: .8em;
     }
 }
 
@@ -108,11 +101,11 @@ div > h2{
 
     .col-xs-12{
         float: left;
-        width: 100;
+        width: 100%;
     }
     
     body{
-        font-size: 1em;
+        font-size: .5em;
     }
 
 }
