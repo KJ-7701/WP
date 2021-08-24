@@ -6,6 +6,7 @@
 
 body{
     text-align: center;
+    position: relative;
 }
 
 /******** HEADER & FOOTER ********/
@@ -17,10 +18,23 @@ header, footer{
     border: 1px solid #fff;
     background-color: #46a925;
 }
+
+header h2, footer h2{
+    position: relative;
+    top: 125px;
+    bottom: 125px;
+
+}
 /******** /HEADER & FOOTER ********/
 
 .container{
     clear: both;
+}
+
+.box h2{
+    position: relative;
+    top: 150px;
+    bottom: 150px;
 }
 
 .box{
@@ -44,6 +58,11 @@ header, footer{
     background-color: #ae44ae9b;
 }
 
+/* div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
 
 /*-------- Large Devices Only -------*/
 
@@ -65,7 +84,7 @@ header, footer{
         width: 33.3%;
     }
     body{
-        font-size: .65em;
+        font-size: .5em;
     }
 }
 /*------- /Medium Devices Only -------*/
