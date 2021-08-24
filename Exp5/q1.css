@@ -1,0 +1,73 @@
+div.a
+{
+    width: 150px;
+      height: 80px;
+      background-color: rgb(172, 231, 255);
+      transform: rotate(20deg);
+}
+div.b
+{
+    width: 150px;
+      height: 80px;
+      background-color: rgb(240, 68, 68);
+      transform: rotateX(60deg);
+}
+div.c
+{
+    width: 150px;
+      height: 80px;
+      background-color: rgb(155, 255, 155);
+      transform: rotateY(180deg);
+}
+div.d
+{
+    width: 150px;
+      height: 80px;
+      background-color: rgb(123, 207, 235);
+      transform: rotateZ(90deg);
+}
+div.e
+{
+    width: 150px;
+      height: 80px;
+      background-color: rgb(179, 54, 54);
+      transform: scaleX(1);
+}
+div.f
+{
+    width: 150px;
+      height: 80px;
+      background-color: rgb(117, 117, 46);
+      transform: scaleY(1.5);
+}
+div.g
+{
+    width: 150px;
+      height: 80px;
+      background-color: rgb(8, 76, 85);
+      transform: scale(1.5);
+    display: inline-block;
+    margin-left: 38px;
+}
+div.h
+{
+    width: 150px;
+      height: 80px;
+      background-color: rgb(194, 79, 79);
+      transform: skewX(30deg);
+    margin-left: 22px;
+}
+div.i
+{
+    width: 150px;
+      height: 80px;
+      background-color: rgb(226, 226, 69);
+      transform: skewY(150deg);
+}
+div.j
+{
+    width: 150px;
+      height: 80px;
+      background-color: rgb(211, 211, 92);
+      transform: translate(50px, 10px);
+}

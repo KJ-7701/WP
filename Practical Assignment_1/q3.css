@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+}
+
+/******** HEADER & FOOTER ********/
+
+header, footer{
+    clear: both;
+    width: 100%;
+    height: 30vh;
+    border: 1px solid #fff;
+    background-color: #46a925;
+}
+/******** /HEADER & FOOTER ********/
+
+h2{
+    
+   
+}
+
+.container{
+    clear: both;
+}
+
+.box{
+    border: 1px solid #fff;
+    width: 400px;
+    height: 40vh;
+    float: left;
+    width: 33.3%;
+}
+
+.left{
+    text-align: middle;
+    background-color: #ae44ae9b;
+}
+
+.middle{
+    background-color: #fdad008b;
+}
+
+
+.right{
+    background-color: #ae44ae9b;
+}
+
+
+/*-------- Large Devices Only -------*/
+
+@media (min-width: 1224px){
+    .col-lg-4{
+        float: left;
+        width: 33.3%;
+    }
+}
+/*-------- /Large Devices Only -------*/
+
+
+/*------- Medium Devices Only -------*/
+
+@media (min-width: 992px) and (max-width: 1223px) {
+    .col-md-4{
+        float: left;
+        width: 33.3%;
+    }
+    body{
+        font-size: .65em;
+    }
+}
+/*------- /Medium Devices Only -------*/
+
+
+/*------- Small Devices Only -------*/
+
+@media (min-width: 424px) and (max-width: 991px) {
+    .col-sm-4{
+        float: left;
+        width: 33.3%;
+    }
+
+    .col-sm-12{
+        float: left;
+        width: 100%;
+    }
+
+    body{
+        font-size: .25em;
+    }
+}
+
+/*------- /Small Devices Only -------*/
+
+
+/*------- EXTRA-Small Devices Only -------*/
+@media (max-width: 423px){
+    .col-xs-4{
+        float: left;
+        width: 33.3%;
+    }
+
+    .col-xs-12{
+        float: left;
+        width: 100;
+    }
+    
+    body{
+        font-size: .25em;
+    }
+
+}
+
+/*-------/EXTRA-Small Devices Only -------*/

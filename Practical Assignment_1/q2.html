@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Forms.css">
+    <title>N253</title>
+</head>
+<body>
+
+    <h1> <em>Registration Form</em> </h1>
+    <form>
+        <label for="first"> <strong>First Name: </strong> </label>  <br>
+        <input class="highlight" type="text" name="First name" id="first" maxlength="25" required> <br> <br>
+
+        <label for="last"> <strong>Last Name: </strong> </label>  <br>
+        <input class="highlight" type="text" name="Last name" id="last" maxlength="25" required> <br> <br>
+
+        <label for="dob"> <strong>Date Of Birth</strong> </label> <br> 
+        <input type="datetime-local" id="dob"required> <br> <br>
+
+        <label for="mobile"> <strong>Mobile: </strong> </label>  <br>
+        <input class="highlight" type="tel" name="Mobile" id="mobile" maxlength="10" required> <br> <br>
+
+        <h3>Select your Gender</h3>
+        <label for="male">Male</label>
+        <input type="radio"  name="Gender" id="male" value="Male" required> <br>
+        <label for="female">Female</label>
+        <input type="radio"  name="Gender" id="female" value="Female" required> <br> 
+        <label for="others">Others</label>
+        <input type="radio"  name="Gender" id="others" value="Others" required> <br> <br>
+
+        <textarea name="address" id="address" cols="40" rows="10" placeholder="Type your Address here....."></textarea> <br> <br>
+
+        <label for="hobbies" > <b>Hobbies</b> </label> <br>
+        <input class="highlight" type="checkbox" id="hobbies" name="hobbies" required> Editing videos &amp; Photos<br>
+        <input class="highlight" type="checkbox" id="hobbies" name="hobbies" required> Animation<br>
+        <input class="highlight" type="checkbox" id="hobbies" name="hobbies" required> Swimming<br>
+        <input class="highlight" type="checkbox" id="hobbies" name="hobbies" required> Gaming<br>
+        <input class="highlight" type="checkbox" id="hobbies" name="hobbies" required> Reading<br> <br>
+
+        <h3> <strong> Degree Achievements </strong> </h3>
+        <label for="percentage" > <strong>0 %</strong> </label> 
+        <input type="range" id="percentage" value="0" required > 
+        <label for="percentage"> <strong>100 %</strong> </label> <br> <br> 
+        
+
+        <input class="buttons" type="submit" value="SUBMIT"> <input class="buttons" type="reset" value="reset">
+        
+ 
+    </form>
+    
+</body>

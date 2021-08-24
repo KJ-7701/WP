@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= device-width, initial-scale=1.0">
+    <title>N253</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background-color: #cdcded;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            position: relative;
+        }
+
+        table{
+            margin: 15px auto;
+            border-collapse: collapse; 
+            position: relative;
+            overflow: hidden;
+        }
+
+        th, td{
+            border: 1px solid  rgb(46, 45, 45);
+            padding:0 5px 2px;
+        }
+
+        .no1 td, .no3 td{
+            vertical-align: top;
+           
+        }
+
+        .no3{
+            height: 35px;
+        }
+
+        .sports{
+            bottom: -18px;
+        }
+
+        
+    </style>
+
+</head>
+
+<body>
+
+    <aside class="left">
+        <table>
+                <tr>
+                    <th> Sr No.</th>
+                    <th> Roll No.</th>
+                    <th> Student Name</th>
+                    <th> Research interest</th>
+                    <th> Sports interest </th>
+                </tr>   
+           
+                <tr class="no1">
+                    <td>1</td>
+                    <td>N253</td> 
+                    <td>Jainam Kothari</td>
+                    <td>Programming</td>
+                    <td>
+                        <table class="sports">
+                            <tr>
+                                <th>Sr No.</th>
+                                <th>Sports</th>
+                            </tr>
+
+                            <tr>
+                                <td>1</td>
+                                <td>Cricket</td>
+                            </tr>
+
+                            <tr class="no3">
+                                <td>2</td>
+                                <td>N253</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+           
+                <tr>
+                    <td>2 </td>
+                    <td>N253</td> 
+                    <td>Jainam Kothari</td>
+                    <td rowspan="3" colspan="2">Jainam Kothari</td>
+                    
+                </tr>
+        
+                <tr class="no3">
+                    <td>3 </td>
+                    <td colspan="2">70471119056</td> 
+                </tr>    
+           </table>
+       </aside>
+</body>
+
+</html>
